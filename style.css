@@ -38,12 +38,22 @@ td{
 
 .container {
     margin-bottom: 50px;
-    min-height: 500px;
-    min-width: 1200px;
-    max-width: 1200px;
+    
     padding-top: 10px;
     display: flex;
-    flex-direction: row;
+  
+        min-height: 500px;
+        min-width: 1200px;
+        max-width: 1200px;
+        flex-direction: row;
+    
+    @media only screen and (max-width: 800px){
+        flex-direction: column;
+        min-height: 1500px;
+        min-width: 700px;
+        max-width: 800px;
+    }
+    
     flex-wrap: wrap;
     /*  background-image: url("bg.jpg");
     background-repeat: repeat-y;
