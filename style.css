@@ -1,0 +1,56 @@
+.title{
+    text-align: center;
+    margin-top: 25px;   
+}
+
+.corpo {
+    margin-top: 0%;
+    background-color:darkolivegreen
+}
+
+.form{
+    margin:auto;
+    max-width: 80%;
+    text-align: center;
+}
+
+input[type="submit"], button, [aria-label]{
+    cursor: pointer;
+}
+
+#edit-box{
+    display: none;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+td{
+    padding-right: 10px;
+    text-align: left;
+}
+
+
+.inputWrapper label{
+    display:block;
+  }
+
+
+.container {
+    margin-bottom: 50px;
+    min-height: 500px;
+    min-width: 1200px;
+    max-width: 1200px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:#BE9871;
+    border: 15px solid #f1e1cd;
+}
+
+button{
+    padding: 0;
+    border: none;
+    background: none;   
+}
