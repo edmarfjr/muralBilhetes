@@ -102,7 +102,9 @@ var app = new function(){
 
     this.Load = function(){
         var data =  localStorage.getItem('itens');
-        this.tarefas =JSON.parse(data);
+        if (data!=null){
+            this.tarefas =JSON.parse(data);
+        }
     }
 
 }
