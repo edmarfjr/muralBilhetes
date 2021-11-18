@@ -1,7 +1,7 @@
 var app = new function(){
     this.el = document.getElementById('tarefas');
     this.tarefas=[{'tipo':'Lembrete','titulo':'Remedio','descri':'tomar de 8 em 8 horas'}];
-//danger 
+
     this.MostrarTodos = function(){
         var data='';
         if(this.tarefas.length>0){
