@@ -45,8 +45,11 @@ td{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    /*  background-image: url("bg.jpg");
+    background-repeat: repeat-y;
+    background-size: 1200px; */
     background-color:#BE9871;
-    border: 15px solid #f1e1cd;
+    border: 15px solid #dfdddcd0;
 }
 
 button{
